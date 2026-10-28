@@ -1,0 +1,13 @@
+#links {
+	display: hide;
+}
+
+#dropdown {
+	display: flex;
+}
+
+#dropdown #links {
+	display: block;
+	justify-content: column;
+	
+}
