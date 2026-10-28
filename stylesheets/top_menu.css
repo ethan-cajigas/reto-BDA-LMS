@@ -6,7 +6,7 @@
 	display: flex;
 }
 
-#dropdown #links {
+#dropdown:hover #links {
 	display: block;
 	justify-content: column;
 	
