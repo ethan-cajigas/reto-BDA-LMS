@@ -1,0 +1,20 @@
+footer {
+  display: flex;
+  background-color: black;
+  justify-content: flex-end;
+  align-content: flex-end;
+  padding-right: 15px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer h3,ul,li {
+	color: white;
+	font-family: Verdana;
+}
+
+footer ul {
+	list-style-type: none;
+}
