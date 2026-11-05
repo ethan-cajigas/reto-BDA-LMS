@@ -1,3 +1,4 @@
+/* General */
 body {
 	background-color: #2B547E;
 	margin: 0px;
@@ -13,6 +14,15 @@ header {
 		border: 2px solid orange;
 	}
 	
+footer {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		background-color: orange;
+		color: white;
+		border: 2px solid orange;
+	}	
+
 nav {
 	display: flex;
 	gap: 20px;
@@ -23,6 +33,11 @@ a {
 	text-decoration: none;
 }
 
+ul {
+	list-style: none;
+}
+
+/*Gastronomia.html*/
 .intro {
 	margin: 20px;
 	padding: 15px;
@@ -34,4 +49,14 @@ a {
 
 .events {
 	margin: 20px;
+}
+
+.gallery {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		padding: 20px;
+		color: white;
 }
