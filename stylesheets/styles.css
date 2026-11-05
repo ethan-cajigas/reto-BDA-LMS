@@ -40,6 +40,10 @@ a {
 	text-decoration: none;
 }
 
+p {
+	font-size: 20px;
+}
+
 a:hover {
 	text-decoration: underline;
 	animation: colorcycle 10s linear infinite;
@@ -47,18 +51,18 @@ a:hover {
 
 ul {
 	list-style: none;
+	/*margin-left: -20px;*/
 }
 
 table, th, td {
 	border:2px solid white;
 	margin-left: auto;
 	margin-right: auto;
-	
 }
 
 table {
 	margin-top: 50px;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 	transform: scale(1.25);
 }
 
@@ -86,7 +90,11 @@ td {
 }
 
 .events {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
 	text-align: center;
+	
 }
 
 .gallery {
@@ -127,4 +135,9 @@ td {
 	align-items: center;
 	padding: 20px;
 	color: white;
+}
+
+.special {
+	animation: colorcycle 10s linear infinite;
+	font-weight: bold;
 }
