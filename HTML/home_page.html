@@ -2,21 +2,63 @@
 <html>
 	<head>
 		<title></title>
-		<link href="../stylesheets/top_menu.css" rel="stylesheet"/>
+		<link href="../stylesheets/styles.css" rel="stylesheet"/>
 	</head>
 	<body>
 		<header>
-			<img src="../multimedia/images/uncle chop chop.jpg" height="50px" class="dropdown"/>
+			<img src="../multimedia/images/uncle chop chop.jpg" height="75px" class="dropdown"/>
 			<h3 class="dropdown">Chop-Chop Convention</h3>
 			<span id="links">
-				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1">Home</a>
-				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1">Musicals</a>
-				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1">Cinema</a>
-				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1">Gastronomy</a>
+				<a href="home_page.html">Home</a>
+				<a href="musical.html">Musicals</a>
+				<a href="cine.html">Cinema</a>
+				<a href="Gastronomia.html">Gastronomy</a>
 			</span>
 		</header>
-			<p>el tío más duro de berrostegieta:</p>
-			<img src="../multimedia/images/uncle chop chop.jpg" height="500px"/>
-		</header>
+		<h1>THE CHOP-CHOP CONVENTION</h1>
+			<map name="convention">
+				<area shape="rect" coords="540,200,810,525" href="musical.html"/>
+				<area shape="rect" coords="875,50,1350,155" href="Gastronomia.html"/>
+				<area shape="rect" coords="483,50,870,155" href="cine.html"/>
+			</map>
+			<img src="../multimedia/images/convention_map.jpg" usemap="#convention"/>
+			<p>with our star guest, Uncle Chop Chop:</p>
+			<img src="../multimedia/images/uncle chop chop.jpg" width="30%"/>
+		<form>
+			<fieldset>
+				<input type="checkbox" name="generalentry" id="general"/>
+				<label for="general">General entry (12.5€)</label>
+				<input type="checkbox" name="musicalentry" id="musical"/>
+				<label for="general">Musical (5€)</label>
+				<br/>
+				<input type="checkbox" name="cinemaentry" id="cinema"/>
+				<label for="general">Cinema festival (5€)</label>
+				<input type="checkbox" name="foodentry" id="food"/>
+				<label for="general">Food festival (5€)</label>
+				<br/>
+				<textarea rows="2" cols="20" name="descr" wrap="hard">Introduce the visitor's name.</textarea> 
+				<textarea rows="2" cols="20" name="descr" wrap="hard">Introduce the visitor's ID.</textarea>
+				<hr/>
+				<h5>Are you participating in any competitions?<br/>Enter your info here!</h5>
+				<textarea rows="2" cols="43" name="descr" wrap="hard">Enter the band's name here.</textarea> 
+				<br/>
+				<textarea rows="2" cols="20" name="descr" wrap="hard">Introduce the participant's name.</textarea> 
+				<textarea rows="2" cols="10" name="descr" wrap="hard">Introduce the participant's ID.</textarea>
+				<textarea type="number" rows="2" cols="10" name="descr" wrap="hard">Introduce the participant's age.</textarea> 
+				<br/>
+				<textarea rows="2" cols="43" name="descr" wrap="hard">Introduce the participant's contact info.</textarea> 
+				<br/>
+				<br/>
+				<input type="submit" value="Submit">
+				<input type="submit" value="Reset">
+			</fieldset>
+		</form>
+		<footer>
+			<h3>Contacts</h3>
+			<ul>
+				<li>chopchop@gmail.com</li>
+				<li>555-CHOP-CHOP</li>
+			</ul>
+		</footer>
 	</body>
 </html>
