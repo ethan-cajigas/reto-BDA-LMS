@@ -158,3 +158,13 @@ p>.externalLink {
 p>.externalLink:hover {
 	text-decoration: none;
 }
+
+/*Musical*/
+#music_links {
+	text-decoration: underline;
+	animation: colorcycle 10s linear infinite;
+}
+
+#music_links a {
+	animation: colorcycle 10s linear infinite;
+}
