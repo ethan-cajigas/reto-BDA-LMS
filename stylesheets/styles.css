@@ -147,7 +147,8 @@ td {
 iframe {
 	display: flex;
 	margin:auto;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
+	border:0px;
 }
 
 .moreInfo {
