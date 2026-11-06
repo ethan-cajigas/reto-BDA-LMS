@@ -86,7 +86,7 @@ td {
 	100% {color: #ff0000;}
 }
 
-/*Gastronomia.html*/
+*Gastronomia.html*/
 .intro {
 	margin: 20px;
 	padding: 15px;
@@ -101,6 +101,7 @@ td {
 	margin-top: 20px;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	text-align: center;
 	
 }
