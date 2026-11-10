@@ -4,12 +4,11 @@
 			<meta charset="utf-8" />
 			<title>Film Festival</title>
 			<link rel="stylesheet" type="text/css" href="../stylesheets/styles.css"/>
-			<link href="../multimedia/images/uncle_chop_chop.jpg" rel="icon"/>
 		</head>
 		<body>
-			<header>
+			<header id="top">
 				<img width="64" height="90" src="../multimedia/images/uncle_chop_chop.jpg" alt="uncle chop chop logo"/></br>
-				<h1 id="top">Chop-Chop Convention</h1>
+				<h1>Chop-Chop Convention</h1>
 					<nav id="links">
 						<a href="home_page.html">Home</a>
 						<a href="musical.html">Musicals</a>
@@ -17,21 +16,32 @@
 						<a href="Gastronomia.html">Gastronomy</a>
 					</nav>
 			</header>
-			<section>
+			<section class="intro">
 				<h1>Film Festival</h1>
 				<h2>What is this festival?</h2>
 				<p>This is the film festival that is part of the Chop Chop convention. Here visitors can watch never before seen movies and short-films. You'll have the chance to experience works from all around the world.</p>
 				<p>This is the perfect chance to enjoy some films you probably wouldn't know of otherwise, and for a very small price. We'll also hold several competitions regarding short-films for different categories, each with their own winner and prize (<a href="#">more info here</a>). Everyone is welcome to participate, or just to share or enjoy our common love for cinema.</p>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/ZB2LV1wHHzM?si=boTkSdt0GG3sNd7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				<img width="560" height="213" src="../multimedia/images/article_topimage_filmfestivalen-i-cannes.jpg" alt="film festival"/>
-				<img width="560" height="213" src="../multimedia/images/article_topimage_Sharon_Stone_at_the_2026_Cannes_Film_Festival_01_top.jpg" alt="Sharon Stone"/>
 			</section>
 			<menu>
-				<a href="#films">Films</a></br>
-				<a href="#directors">Directors</a></br>
-				<a href="#competitions">Competitions</a></br>
-				<a href="#stalls">Stalls</a>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/ZB2LV1wHHzM?si=boTkSdt0GG3sNd7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				<div class="gallery">
+					<span class="card"><img width="560" height="213" src="../multimedia/images/article_topimage_filmfestivalen-i-cannes.jpg" alt="film festival"/></span>
+					<span class="card"><img width="560" height="213" src="../multimedia/images/article_topimage_Sharon_Stone_at_the_2026_Cannes_Film_Festival_01_top.jpg" alt="Sharon Stone"/></span>
+				</div>
 			</menu>
+			<section class="events">
+				<div class="listOfEvents">
+					<ul>
+						<li><a href="#films">Films</a><li></br>
+						<li><a href="#directors">Directors</a><li></br>
+						<li><a href="#competitions">Competitions</a><li></br>
+						<li><a href="#stalls">Stalls</a><li>
+					</ul>
+				</div>
+				<div class="gallery">
+						<span class="card"><img width="315" height="315" src="../multimedia/images/Mati_Diop_Goldener_Bar_der_Berlinale.jpg" alt="film festival"/></span>
+				</div>
+			</section>
 			<content>
 				<h2 id="films">Films</h2>
 					<ul>
@@ -59,38 +69,33 @@
 							<td rowspan="4">Saturday</td>
 							<td>10:00 - 12:00</td>
 							<td>Informational chats with guest directors</td>
-							<td>Theater</td>
+							<td rowspan="5">Theater</td>
 						</tr>
 						<tr>
 							<td>12:00 - 16:00</td>
 							<td>Best short-film competition</td>
-							<td>Theater</td>
 						</tr>
 						<tr>
 							<td>16:00 - 19:00</td>
 							<td>Best Director Competition</td>
-							<td>Theater</td>
 						</tr>
 						<tr>
 							<td>19:00 - 23:00</td>
 							<td>Best Actor Competition</td>
-							<td>Theater</td>
 						</tr>
 						<tr>
 							<td rowspan="3">Sunday</td>
 							<td>10:00 - 12:00</td>
 							<td>Morning chats and lessons on film-making</td>
-							<td>Theater</td>
 						</tr>
 						<tr>
 							<td>12:00 - 17:00</td>
 							<td>Live acting lessons with professional actors</td>
-							<td>Small rooms 1-20</td>
+							<td rowspan="2">Small rooms 1-20</td>
 						</tr>
 						<tr>
 							<td>17:00 - 22:00</td>
 							<td>Scriptwriting lessons from professionals</td>
-							<td>Small rooms 1-20</td>
 						</tr>
 					</table>
 					<h2 id="directors">Directors</h2>
@@ -121,7 +126,9 @@
 							<li>And more...</li>
 						</ul>
 					<a href="https://www.youtube.com/watch?v=tIYtS_Gc72o&t=2s">more info here</a></br>
-					<img width="560" height="315" src="../multimedia/images/uncle_chop_chop_oscar.jpg" alt="uncle chop chop oscar"/></br>
+					<div class="gallery">
+						<span class="card"><img width="560" height="315" src="../multimedia/images/uncle_chop_chop_oscar.jpg" alt="uncle chop chop oscar"/></span></br>
+					</div>
 					<a href="#top">Return to the top</a></br>
 			</content>
 			<footer>
@@ -130,6 +137,7 @@
 						<li>chopchop@gmail.com</li>
 						<li>555-CHOP-CHOP</li>
 					</ul>
+					<img src="../multimedia/images/by_nc_sa.svg" alt="creative commons"/>
 			</footer>
 		</body>
 	</html>
