@@ -126,6 +126,30 @@ td {
 	transition: 0.4s ease;
 }
 
+#card {
+	border: 2px solid black;
+	margin: 10px;
+	padding: 10px;
+	padding-bottom: 50px;
+	width: 400px;
+	background-color: white;
+	transform: scale(1.0);
+	transition: 0.4s ease;
+}
+
+.UncleChopChop {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+#card:hover {
+	transform: scale(1.05);
+	box-shadow: 6px 10px black;
+	transition: 0.4s ease;
+}
+
+
 .card:hover {
 	transform: scale(1.05);
 	box-shadow: 6px 10px black;
@@ -158,17 +182,6 @@ iframe {
 	align-items: center;
 	text-align: center;
 	
-}
-
-.unclechopchop {
-	display: flex;
-	margin:auto;
-	/*flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	padding: 20px;
-	color: white;*/
 }
 
 .special {
