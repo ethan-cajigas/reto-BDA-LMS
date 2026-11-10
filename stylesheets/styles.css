@@ -131,7 +131,7 @@ td {
 	margin: 10px;
 	padding: 10px;
 	padding-bottom: 50px;
-	width: 400px;
+	width: 800px;
 	background-color: white;
 	transform: scale(1.0);
 	transition: 0.4s ease;
@@ -140,7 +140,7 @@ td {
 .UncleChopChop {
 	display: flex;
 	flex-direction: row;
-	
+	justify-content: center;
 }
 
 #card:hover {
