@@ -212,3 +212,8 @@ form {
 	width: 25%;
 	margin: auto;
 }
+
+.links {
+	text-decoration: underline;
+	animation: colorcycle 10s linear infinite;
+}
