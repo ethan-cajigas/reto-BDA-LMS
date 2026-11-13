@@ -10,12 +10,39 @@
 		<header id="top">
 		<a href="home_page.html"><img width="64" height="90" src="../multimedia/images/uncle_chop_chop.jpg" alt="Uncle chop chop logo"></a>
 			<h1>Chop-Chop Convention</h1>
-				<nav id="links">
-					<a href="home_page.html">Home</a>
-					<a href="musical.html">Musicals</a>
-					<a href="cine.html">Cinema</a>
-					<a href="Gastronomia.html">Gastronomy</a>
-				</nav>
+			<nav>
+				<ul>
+					<li>
+						<a href="home_page.html">Home</a>
+					</li>
+					<li class="dropdown">
+						<a href="musical.html">Musical</a>
+						<div class="dropdown-content">
+							<a href="musical.html#intro">Intro</a>
+							<a href="musical.html#signup">Sign up</a>
+							<a href="musical.html#schedule">Schedule</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="cine.html">Cinema</a>
+						<div class="dropdown-content">
+							<a href="cine.html#films">Films</a>	
+							<a href="cine.html#directors">Directors</a>
+							<a href="cine.html#competitions">Competitions</a>
+							<a href="cine.html#stalls">Stalls</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="Gastronomia.html">Gastronomy</a>
+						<div class="dropdown-content">
+							<a href="#events">Events</a>
+							<a href="#schedule">Schedule</a>
+							<a href="#gallery">Gallery</a>
+							<a href="#moreinfo">More Information</a>
+						</div>
+					</li>
+				</ul>		
+			</nav>
 		</header>
 		
 		<section class="intro" id="intro">
@@ -27,7 +54,7 @@
 		
 		<br>
 		
-		<section class="events">
+		<section class="events" id="events">
 			<div class="listOfEvents">
 			<br>
 			<h2>Main events</h2>
@@ -64,7 +91,7 @@
 			</form>
 		
 		<br>
-		<section class="schedule">
+		<section class="schedule" id="schedule">
 			<h2>Our schedule</h2>
 			<table>
 				<tr>
@@ -117,7 +144,7 @@
 		
 		<br>
 		
-		<h2>Images from past years</h2>
+		<h2 id="gallery">Images from past years</h2>
 		<div class="gallery">
 			<span class="card"><img src="../multimedia/images/FrenchFoodStall.webp" width="400" alt="Picture of a French Food Stall"></span>
 			<span class="card"><img src="../multimedia/images/ItalianFoodStall.webp" width="400" alt="Picture of a French Food Stall"></span>
@@ -127,7 +154,7 @@
 		
 		<br>
 		
-		<h2>Hungry for more? Here are some links to learn about more Food Festivals around the world!!</h2>
+		<h2 id="moreinfo">Hungry for more? Here are some links to learn about more Food Festivals around the world!!</h2>
 		<div class="moreInfo">
 			<span class="card"><img src="../multimedia/images/TastyWelshFood.webp" width="400" alt="Close up picture of a welsh dish"></span>
 		
