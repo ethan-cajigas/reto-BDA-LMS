@@ -268,7 +268,7 @@ li a {
 			
 .dropdown-content a:hover {
 	background-color: #2B547E;
-	color: animation: colorcycle 10s linear infinite;
+	animation: colorcycle 10s linear infinite;
 }
 			
 .dropdown:hover .dropdown-content {
