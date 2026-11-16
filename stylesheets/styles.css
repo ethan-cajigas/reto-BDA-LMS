@@ -317,3 +317,24 @@ li a {
 #musictable {
 	border-style: groove;
 }
+
+#filmcontent {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#directors {
+	display: flex;
+	flex-direction: column;
+}
+
+#competitions {
+	display: flex;
+	flex-direction: column;
+}
+
+#stalls {
+	display: flex;
+	flex-direction: column;
+}
