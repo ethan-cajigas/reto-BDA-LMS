@@ -23,7 +23,6 @@ h1 {
 }
 
 h1, h2, h3{
-	/*animation: colorcycle 10s linear infinite;*/
 	text-align: center;
 	margin: 20px;
 }
@@ -66,7 +65,6 @@ p {
 
 ul {
 	list-style: none;
-	/*margin-left: -20px;*/
 }
 
 table, th, td {
