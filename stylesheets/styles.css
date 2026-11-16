@@ -209,8 +209,9 @@ p>.externalLink:hover {
 
 /* Forms */
 form {
-	width: 25%;
+	width: 50%;
 	margin: auto;
+	border-style: dotted;
 }
 
 .links {
@@ -265,4 +266,16 @@ li a {
 			
 .dropdown:hover .dropdown-content {
 	display: block;
-}			
+}
+
+#filmtable {
+	border-style: dotted;
+}
+
+#gastronomytable {
+	border-style: dashed;
+}
+
+#musictable {
+	border-style: groove;
+}
