@@ -1,350 +1,325 @@
-@media screen and (max-width: 480px) {
+/* General */
+body {
+	background-color: #2B547E;
+	margin:0px;
+	color: white;
+}
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+	background-color: orange;
+	color: white;
+	border: 2px solid orange;
+	animation: colorcycle 10s linear infinite;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right:0px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h1, h2, h3{
+	text-align: center;
+	margin: 20px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: orange;
+	color: white;
+	border: 2px solid orange;
+}	
+
+nav {
+	display: flex;
+	gap: 20px;
+}
+
+a:link {
+	text-decoration: underline;
+	animation: colorcycle 10s linear infinite;
+}
+
+a:visited {
+	animation: none;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	animation: none;
+	color: white;
+	text-decoration: none;
+}
+
+p {
+	font-size: 23px;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+table, th, td {
+	border:2px solid white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	transform: scale(1.25);
+}
+
+td {
+	text-align: center;
+	padding: 5px;
+}
+
+@keyframes colorcycle {
+	0% {color: #ff0000;}
+	33% {color: #00ff00;}
+	66% {color: #0000ff;}
+	100% {color: #ff0000;}
+}
+
+.submit:link {
+	animation: none;
+	background-color: white;
+	color: black;
+	border: 2px solid white;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.submit:visited {
+	animation: none;
+	background-color: white;
+	color: black;
+	border: 2px solid white;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.submit:hover {
+	animation: none;
+	background-color: gray;
+	color: black;
+	border: 2px solid gray;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+/*Gastronomia.html*/
+.intro {
+	margin: 20px;
+	padding: 15px;
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: #87a96b;
+	color:white;
+	text-align: center;
+}
+
+.events {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
 	
 }
 
-@media screen and (max-width: 1400px) {
+.gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+	color: white;
+}
+
+.card {
+	border: 2px solid black;
+	margin: 10px;
+	padding: 10px;
+	padding-bottom: 50px;
+	background-color: white;
+	transform: scale(1.0);
+	transition: 0.4s ease;
+}
+
+#card {
+	border: 2px solid black;
+	margin: 10px;
+	padding: 10px;
+	padding-bottom: 50px;
+	width: 800px;
+	background-color: white;
+	transform: scale(1.0);
+	transition: 0.4s ease;
+}
+
+.UncleChopChop {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#card:hover {
+	transform: scale(1.05);
+	box-shadow: 6px 10px black;
+	transition: 0.4s ease;
+}
+
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 6px 10px black;
+	transition: 0.4s ease;
+}
+
+.schedule>h2 {
+	text-align: center;
+}
+
+.listOfEvents {
+	margin-left: 70px;
+}
+
+.listOfLinks {
+	margin-left: -300px;
+}
+
+iframe {
+	display: flex;
+	margin:auto;
+	margin-bottom: 50px;
+	border:0px;
+}
+
+.moreInfo {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
 	
 }
 
-@media screen and (max-width: 1920px) {
-	/* General */
-	body {
-		background-color: #2B547E;
-		margin:0px;
-		color: white;
-	}
-	header {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		padding: 20px;
-		background-color: orange;
-		color: white;
-		border: 2px solid orange;
-		animation: colorcycle 10s linear infinite;
-		margin-top: 0px;
-		margin-left: 0px;
-		margin-right:0px;
-	}
+.special {
+	animation: colorcycle 10s linear infinite;
+	font-weight: bold;
+}
 
-	h1 {
-		font-size: 40px;
-	}
+p>.externalLink {
+	text-decoration: underline;
+}
 
-	h1, h2, h3{
-		text-align: center;
-		margin: 20px;
-	}
+p>.externalLink:hover {
+	text-decoration: none;
+}
 
-	footer {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		background-color: orange;
-		color: white;
-		border: 2px solid orange;
-	}	
+/*Musical*/
+#music_links {
+	text-decoration: underline;
+	animation: colorcycle 10s linear infinite;
+}
 
-	nav {
-		display: flex;
-		gap: 20px;
-	}
+#music_links a {
+	animation: colorcycle 10s linear infinite;
+}
 
-	a:link {
-		text-decoration: underline;
-		animation: colorcycle 10s linear infinite;
-	}
+/* Forms */
+form {
+	width: 30%;
+	margin: auto;
+	border-style: dotted;
+}
 
-	a:visited {
-		animation: none;
-		color: white;
-		text-decoration: none;
-	}
+.links {
+	text-decoration: underline;
+	animation: colorcycle 10s linear infinite;
+}
 
-	a:hover {
-		animation: none;
-		color: white;
-		text-decoration: none;
-	}
+/* Home page */
+#convention_map {
+	margin-left: 15%;
+	margin-right: 15%;
+}
 
-	p {
-		font-size: 23px;
-		text-align: center;
-	}
+/* Dropdown Menu Style */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: orange;
+}
+			
+li {
+	display: inline;	
+}
+			
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 12px 16px;
+	text-decoration: none;
+}
+			
+.dropdown {
+	display: inline-block;
+}
+			
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: orange;
+	border: 2px solid #2B547E;
+	min-width: 100px;
+}
+			
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+			
+.dropdown-content a:hover {
+	background-color: #2B547E;
+	animation: colorcycle 10s linear infinite;
+}
+			
+.dropdown:hover .dropdown-content {
+	display: block;
+}
 
-	ul {
-		list-style: none;
-	}
+#filmtable {
+	border-style: dotted;
+}
 
-	table, th, td {
-		border:2px solid white;
-		margin-left: auto;
-		margin-right: auto;
-	}
+#gastronomytable {
+	border-style: dashed;
+}
 
-	table {
-		margin-top: 50px;
-		margin-bottom: 50px;
-		transform: scale(1.25);
-	}
+#musictable {
+	border-style: groove;
+}
 
-	td {
-		text-align: center;
-		padding: 5px;
-	}
-
-	@keyframes colorcycle {
-		0% {color: #ff0000;}
-		33% {color: #00ff00;}
-		66% {color: #0000ff;}
-		100% {color: #ff0000;}
-	}
-
-	.submit:link {
-		animation: none;
-		background-color: white;
-		color: black;
-		border: 2px solid white;
-		border-radius: 5px;
-		text-decoration: none;
-	}
-
-	.submit:visited {
-		animation: none;
-		background-color: white;
-		color: black;
-		border: 2px solid white;
-		border-radius: 5px;
-		text-decoration: none;
-	}
-
-	.submit:hover {
-		animation: none;
-		background-color: gray;
-		color: black;
-		border: 2px solid gray;
-		border-radius: 5px;
-		text-decoration: none;
-	}
-
-	/*Gastronomia.html*/
-	.intro {
-		margin: 20px;
-		padding: 15px;
-		border: 2px solid black;
-		border-radius: 20px;
-		background-color: #87a96b;
-		color:white;
-		text-align: center;
-	}
-
-	.events {
-		margin-top: 20px;
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		text-align: center;
-		
-	}
-
-	.gallery {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		align-items: center;
-		padding: 20px;
-		color: white;
-	}
-
-	.card {
-		border: 2px solid black;
-		margin: 10px;
-		padding: 10px;
-		padding-bottom: 50px;
-		background-color: white;
-		transform: scale(1.0);
-		transition: 0.4s ease;
-	}
-
-	#card {
-		border: 2px solid black;
-		margin: 10px;
-		padding: 10px;
-		padding-bottom: 50px;
-		width: 800px;
-		background-color: white;
-		transform: scale(1.0);
-		transition: 0.4s ease;
-	}
-
-	.UncleChopChop {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-	}
-
-	#card:hover {
-		transform: scale(1.05);
-		box-shadow: 6px 10px black;
-		transition: 0.4s ease;
-	}
-
-
-	.card:hover {
-		transform: scale(1.05);
-		box-shadow: 6px 10px black;
-		transition: 0.4s ease;
-	}
-
-	.schedule>h2 {
-		text-align: center;
-	}
-
-	.listOfEvents {
-		margin-left: 70px;
-	}
-
-	.listOfLinks {
-		margin-left: -300px;
-	}
-
-	iframe {
-		display: flex;
-		margin:auto;
-		margin-bottom: 50px;
-		border:0px;
-	}
-
-	.moreInfo {
-		margin-top: 20px;
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		text-align: center;
-		
-	}
-
-	.special {
-		animation: colorcycle 10s linear infinite;
-		font-weight: bold;
-	}
-
-	p>.externalLink {
-		text-decoration: underline;
-	}
-
-	p>.externalLink:hover {
-		text-decoration: none;
-	}
-
-	/*Musical*/
-	#music_links {
-		text-decoration: underline;
-		animation: colorcycle 10s linear infinite;
-	}
-
-	#music_links a {
-		animation: colorcycle 10s linear infinite;
-	}
-
-	/* Forms */
-	form {
-		width: 30%;
-		margin: auto;
-		border-style: dotted;
-	}
-
-	.links {
-		text-decoration: underline;
-		animation: colorcycle 10s linear infinite;
-	}
-
-	/* Home page */
-	#convention_map {
-		margin-left: 15%;
-		margin-right: 15%;
-	}
-
-	/* Dropdown Menu Style */
-	ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		background-color: orange;
-	}
-				
-	li {
-		display: inline;	
-	}
-				
-	li a {
-		display: inline-block;
-		color: white;
-		text-align: center;
-		padding: 12px 16px;
-		text-decoration: none;
-	}
-				
-	.dropdown {
-		display: inline-block;
-	}
-				
-	.dropdown-content {
-		display: none;
-		position: absolute;
-		background-color: orange;
-		border: 2px solid #2B547E;
-		min-width: 100px;
-	}
-				
-	.dropdown-content a {
-		color: black;
-		padding: 12px 16px;
-		text-decoration: none;
-		display: block;
-		color: white;
-	}
-				
-	.dropdown-content a:hover {
-		background-color: #2B547E;
-		animation: colorcycle 10s linear infinite;
-	}
-				
-	.dropdown:hover .dropdown-content {
-		display: block;
-	}
-
-	#filmtable {
-		border-style: dotted;
-	}
-
-	#gastronomytable {
-		border-style: dashed;
-	}
-
-	#musictable {
-		border-style: groove;
-	}
-
-	#filmcontent {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-	}
-
-	#directors {
-		display: flex;
-		flex-direction: column;
-	}
-
-	#competitions {
-		display: flex;
-		flex-direction: column;
-	}
-
-	#stalls {
-		display: flex;
-		flex-direction: column;
-	}
+#filmcontent {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
