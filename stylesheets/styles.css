@@ -93,6 +93,33 @@ td {
 	100% {color: #ff0000;}
 }
 
+.submit:link {
+	animation: none;
+	background-color: white;
+	color: black;
+	border: 2px solid white;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.submit:visited {
+	animation: none;
+	background-color: white;
+	color: black;
+	border: 2px solid white;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.submit:hover {
+	animation: none;
+	background-color: gray;
+	color: black;
+	border: 2px solid gray;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
 /*Gastronomia.html*/
 .intro {
 	margin: 20px;
