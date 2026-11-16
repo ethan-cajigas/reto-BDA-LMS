@@ -42,7 +42,19 @@ nav {
 	gap: 20px;
 }
 
-a {
+a:link {
+	text-decoration: underline;
+	animation: colorcycle 10s linear infinite;
+}
+
+a:visited {
+	animation: none;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	animation: none;
 	color: white;
 	text-decoration: none;
 }
@@ -50,11 +62,6 @@ a {
 p {
 	font-size: 23px;
 	text-align: center;
-}
-
-a:hover {
-	text-decoration: underline;
-	animation: colorcycle 10s linear infinite;
 }
 
 ul {
