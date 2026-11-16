@@ -226,6 +226,12 @@ form {
 	animation: colorcycle 10s linear infinite;
 }
 
+/* Home page */
+#convention_map {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
 /* Dropdown Menu Style */
 ul {
 	list-style-type: none;
